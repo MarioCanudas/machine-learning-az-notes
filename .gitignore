@@ -9,6 +9,7 @@ __pycache__/
 # Jupyter Notebook checkpoints and metadata
 .ipynb_checkpoints/
 *.nbconvert.ipynb
+.virtual_documents/
 
 # Environment files (uv, venv, pip)
 .venv/
@@ -22,3 +23,4 @@ Thumbs.db
 
 # Logs and outputs
 *.log
+
