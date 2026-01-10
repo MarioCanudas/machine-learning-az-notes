@@ -1,0 +1,16 @@
+[project]
+name = "machine-learning-az-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.5.1",
+    "jupyterlab-lsp>=5.2.0",
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "spicy>=0.16.0",
+    "statsmodels>=0.14.6",
+    "tensorflow>=2.20.0",
+]
