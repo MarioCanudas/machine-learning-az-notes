@@ -16,18 +16,11 @@ dependencies = [
   "tensorflow>=2.20.0",
 ]
 
-[tool.pyright]
-pythonVersion = "3.13"
-typeCheckingMode = "basic"
-diagnosticMode = "openFilesOnly"
-exclude = [
-  ".venv",
-  "**/__pycache__",
-  "**/*.ipynb",
-  ".ipynb_checkpoints/",
-  "*.nbconvert.ipynb",
-  ".virtual_documents/",
-]
+[project.optional-dependencies]
+dev = ["ruff >= 0.14.11", "ty >= 0.0.11"]
+
+[tool.ty.environment]
+python = "./.venv/bin/python"
 
 [tool.ruff]
 target-version = "py313"
